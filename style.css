@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ff5722;
+    padding: 15px 50px;
+    color: rgb(224, 232, 225);
+}
+.btn1 {
+    background: #36bf0c;
+    color: rgb(205, 220, 204);
+    padding: 8px 16px;
+    text-decoration:none;
+    border-radius: 5px;
+}
+p{
+    font-size: 40px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo span {
+    background: white;
+    color: #ff5722;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(500, 218, 203);
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: #dadfdd;
+}
+
+.hero img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 56px;
+    color: #141514;
+}
+
+.btn {
+    background: #ff4e22;
+    color: rgb(205, 220, 204);
+    padding: 8px 16px;
+    text-decoration:none;
+    border-radius: 5px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background: #d8ddd9;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+}
+
+.feature img {
+    width: 170px;
+}
+
+/* Menu Section */
+.menu {
+    text-align: center;
+    padding: 50px;
+    background: #e8f2e9;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-items img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #ff5722;
+    color: rgb(209, 219, 209);
+}
+
+.footer-links a {
+    color: rgb(236, 246, 238);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 5px;
+}
